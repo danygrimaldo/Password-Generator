@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  width: 100%;
 }
 
 html,
@@ -38,7 +39,7 @@ header {
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
-  max-width: 800px;
+  width: 100%;
   padding: 30px 40px;
 }
 
@@ -88,7 +89,7 @@ header {
   cursor: pointer;
 }
 
-button[disabled] {
+button[:enabled] {
   cursor: default;
   background: #c0c7cf;
 }
